@@ -1,0 +1,177 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.bg-container{
+    background-color:#f5f4dd;
+    background-size:cover;
+    height:500vh;
+}
+.heading{
+    font-family:"Poppins";
+    font-weight:500;
+    font-size:23px;
+    padding:10px;
+    text-align: center;
+}
+.buttons-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.men-button{
+    background-color:#D3D3D3;
+    height:40px;
+    width:200px;
+    border-width: 0px;
+    border-radius: 5px;
+    color:black;
+    font-family: "Poppins";
+    font-weight:500;
+    font-size:20px;
+    text-align: center;
+}
+.women-button{
+    background-color:rgb(33, 33, 69);
+    height:40px;
+    width:200px;
+    border-width: 0px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family: "Poppins";
+    font-weight:500;
+    font-size:20px;
+    text-align: center;
+}
+.kids-button{
+    background-color:#D3D3D3;
+    height:40px;
+    width:200px;
+    border-width: 0px;
+    border-radius: 5px;
+    color:black;
+    font-family: "Poppins";
+    font-weight:500;
+    font-size:20px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(20, 20, 41);
+    color:white;
+}
+.women-section-container{
+    padding:0px;
+}
+.first-card{
+    height:40vh;
+}
+.first-image{
+    height:200px;
+    width:200px;
+    margin-top:30px;
+    padding-left:40px;
+
+}
+.news-button{
+    background-color: blanchedalmond;
+    height: 40px;
+    width:100px;
+    border-width:0px;
+    border-radius: 5px;
+    margin-top:30px;
+    color:black;
+    font-family: "Poppins";
+}
+.women-kurti-container{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    margin:10px;
+}
+.price-container{
+    display:flex;
+    flex-direction: row;
+    padding-top:10px;
+    margin-left:10px;
+}
+.strike-out-discount{
+    text-decoration: line-through;
+    padding-left:20px;
+}
+.off{
+    padding-left:20px;
+    color:rgb(199, 18, 18)
+}
+.add-cart-button{
+    height:40px;
+    width:150px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: "Poppins";
+    color:#ffffff;
+    background-color: rgb(33, 33, 69);
+    margin:10px;
+}
+.women-kurti-heading{
+    font-family: "Poppins";
+}
+.women-kurti-para{
+    font-family: "Poppins";
+}
+.second-image{
+    height:200px;
+    width:200px;
+    padding:10px;
+
+}
+.second-card{
+    height:40vh;
+}
+.container{
+display: flex;
+flex-direction: row;
+padding:10px;
+
+}
+.fourth-card{
+    height:40vh;
+}
+.fourth-image{
+    height:200px;
+   width:200px;
+   padding:10px;
+
+}
+.third-card{
+    height:40vh;
+}
+.third-image{
+    height:200px;
+   width:200px;
+    padding:10px;
+
+}
+@media screen and(min-width:768px){
+    .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and(min-width:996px){
+    .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:1200px){
+    .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
